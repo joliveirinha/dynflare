@@ -1,4 +1,4 @@
-# Start from golang v1.11 base image
+# Start from golang v1.12 base image
 FROM golang:1.12
 
 # Add Maintainer Info
