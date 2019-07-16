@@ -3,13 +3,6 @@
 REGEX_IP=^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$
 REGEX_NUMBER=^[0-9]+$
 
-# register handler of sig term
-signal_handler() {
-  echo "terminating..."
-  exit 1
-}
-trap signal_handler TERM
-
 interval=${INTERVAL:-60}
 
 # check if number
