@@ -8,8 +8,6 @@
 
 It is an ideal replacement of other dynamic IP services without requiring you to validate your dynamic ip service subscription every couple of weeks.
 
-===
-
 ### Usage
 
 ```
